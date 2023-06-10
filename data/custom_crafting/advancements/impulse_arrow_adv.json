@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "custom_crafting:impulse_arrow_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "custom_crafting:impulse_arrow_func"
+    }
+}
