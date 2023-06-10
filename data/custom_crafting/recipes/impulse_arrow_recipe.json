@@ -1,18 +1,22 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        " # ",
-        "#G#",
-        " # "
-    ],
-    "key": {
-        "#": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
             "item": "minecraft:arrow"
         },
-        "G": {
+        {
+            "item": "minecraft:arrow"
+        },
+        {
             "item": "minecraft:gunpowder"
+        },
+        {
+            "item": "minecraft:arrow"
+        },
+        {
+            "item": "minecraft:arrow"
         }
-    },
+    ],
     "result": {
         "item": "minecraft:knowledge_book",
         "count": 1
